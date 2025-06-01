@@ -1,0 +1,56 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(247, 247, 200);
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
+  font-size: x-large;
+}
+
+h1 {
+  text-align: left;
+}
+
+.currency-box {
+   margin: 25px auto;
+}
+
+#amount {
+  border: 2px solid black;
+  font-size: medium;
+  width: 120px;
+  font-size: small;
+  height: 27px;
+}
+
+#fromCurrency {
+  border: 2px solid black;
+  font-size: medium;
+  width: 75px;
+  height: 31px;
+}
+#toCurrency {
+  border: 2px solid black;
+  font-size: medium;
+  width: 75px;
+  height: 31px;
+}
+
+#convert {
+  border: 2px solid black;
+  font-size: medium;
+  height: 32px;
+  width: 150px;
+  background-color: white;
+}
+
+#result {
+  margin-top:15px;
+  font-size: medium;
+  font-size: large;
+}
